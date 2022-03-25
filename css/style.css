@@ -24,13 +24,16 @@ main {
 
 .blocco2 {
     height: 500px;
-    background-color:cadetblue;
+    background-color:#0187fd;
 }
 
 /* Righe nel blocco2 */
+.row1, .colsx, .colcenter, .coldx {
+    background-color: #abcfe7;
+}
+
 .row1 {
     height: 50px;
-    background-color:aquamarine;
     margin-bottom: 20px;
 }
 
@@ -39,7 +42,6 @@ main {
     height: 430px;
     margin-right: 1%;
     float: left;
-    background-color: aquamarine;
 }
 
 .colcenter {
@@ -47,14 +49,12 @@ main {
     height: 430px;
     margin-right: 1%;
     float: left;
-    background-color:aquamarine 
 }
 
 .coldx {
     width: 24%;
     height: 430px;
     float: left;
-    background-color:aquamarine    
 }
 /* Fine Main */
 

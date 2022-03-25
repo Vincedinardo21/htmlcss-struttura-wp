@@ -5,6 +5,12 @@
     clear: both;
 }
 
+.row2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Regole Header */
 header {
     height: 100px;
@@ -28,7 +34,7 @@ main {
 }
 
 /* Righe nel blocco2 */
-.row1, .colsx, .colcenter, .coldx {
+.row1, .colside, .colcenter {
     background-color: #abcfe7;
 }
 
@@ -37,10 +43,9 @@ main {
     margin-bottom: 20px;
 }
 
-.colsx {
+.colside {
     width: 24%;
     height: 430px;
-    margin-right: 1%;
     float: left;
 }
 
@@ -48,12 +53,7 @@ main {
     width: 50%;
     height: 430px;
     margin-right: 1%;
-    float: left;
-}
-
-.coldx {
-    width: 24%;
-    height: 430px;
+    margin-left: 1%;
     float: left;
 }
 /* Fine Main */

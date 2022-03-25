@@ -27,6 +27,37 @@ main {
     background-color:cadetblue;
 }
 
+/* Righe nel blocco2 */
+.row1 {
+    height: 50px;
+    background-color:aquamarine;
+    margin-bottom: 20px;
+}
+
+.colsx {
+    width: 24%;
+    height: 430px;
+    margin-right: 1%;
+    float: left;
+    background-color: aquamarine;
+}
+
+.colcenter {
+    width: 50%;
+    height: 430px;
+    margin-right: 1%;
+    float: left;
+    background-color:aquamarine 
+}
+
+.coldx {
+    width: 24%;
+    height: 430px;
+    float: left;
+    background-color:aquamarine    
+}
+/* Fine Main */
+
 /* Regole Footer */
 footer {
     height: 50px;
